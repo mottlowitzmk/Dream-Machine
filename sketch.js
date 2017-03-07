@@ -4,19 +4,25 @@ var angle=.2;
 
 function setup() {
   createCanvas(800, 800);
-  background (500, 150, 10);
+  background (50);
   textFont("Helvetica");
   textSize(25);
 }
 function draw() {
 
+
   translate(mouseX, mouseY);
-  rotate(angle);
+  rotate(5);
 
   angle += .5;
   angle+= .2;
 
-  fill(300, 100, 100, 50);
 
-  text("Maxie  Max    MAXX    MAXIE", mouseX, mouseX); // Write at coordinate
+  fill(10, 140, 20, 200);
+ellipse(width/2,height/2,30,140);
+fill(10, 40, 10, 50);
+
+  text("O  O   O   O", mouseX, mouseY); // Write at coordinate
 }
+
+
