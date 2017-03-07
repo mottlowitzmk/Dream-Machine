@@ -25,3 +25,6 @@ fill(10, 40, 10, 50);
   text("O  O   O   O", mouseX, mouseY); // Write at coordinate
 }
 
+
+
+//black background/bright.mouseclick change. break something up. Faster. alpha channels//
