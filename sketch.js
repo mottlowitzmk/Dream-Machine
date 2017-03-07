@@ -26,3 +26,5 @@ fill(10, 40, 10, 50);
 }
 
 
+
+//black background/bright.mouseclick change. break something up. Faster. alpha channels//
